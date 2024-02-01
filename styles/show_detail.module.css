@@ -1,0 +1,149 @@
+.contain{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  align-content: center;
+}
+.title{
+  margin-top:10px;
+  margin-bottom: 40px;
+
+}
+
+.button{
+  outline-style: none;
+  border:0;
+  background-color: #E4BEC6;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  color: #fff;
+  font-family:'Zen Maru Gothic', serif;
+  cursor: pointer;
+  display:flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-weight: 300;
+  margin:10px 0 ;
+}
+.flex_center{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.space_between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  margin:0;
+}
+.img{
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: grey;
+}
+
+.not_seat{
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 3px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  opacity:0,;
+  cursor:'not-allowed';
+} 
+.seat{
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 3px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.mini_seat{
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 3px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.selected_seat{
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  background-color: #efbcc4;
+  color:#fff;
+  border-radius: 5px;
+  margin: 3px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.mini_selected_seat{
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  background-color: #efbcc4;
+  color:#fff;
+  border-radius: 5px;
+  margin: 3px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.disabled_seat{
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  background-color: #69585b;
+  color:#fff;
+  border-radius: 5px;
+  margin: 3px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: 'not-allowed';
+}
+.mini_disabled_seat{
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  background-color: #69585b;
+  color:#fff;
+  border-radius: 5px;
+  margin: 3px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+

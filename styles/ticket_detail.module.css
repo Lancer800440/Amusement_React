@@ -1,0 +1,58 @@
+.contain{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  align-content: center;
+}
+.title{
+  margin-top:10px;
+  margin-bottom: 40px;
+
+}
+
+.buyTicket {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+}
+
+.button{
+  outline-style: none;
+  border:0;
+  background-color: #E4BEC6;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  color: #fff;
+  font-family:'Zen Maru Gothic', serif;
+  cursor: pointer;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  margin:20px 0 ;
+}
+.flex_center{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.space_between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  margin:0;
+}
+.img{
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: grey;
+}

@@ -1,0 +1,70 @@
+.container{
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center;
+  align-content: center; */
+  height: 900px;
+}
+.title{
+  margin:50px auto;
+  text-align: center;
+}
+.button{
+  outline-style: none;
+  border:0;
+  border-radius: 5px;
+  height: 30px;
+  background-color: #fff;
+  border: #000 2px solid;
+  font-family:'Zen Maru Gothic', serif;
+  cursor: pointer;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.flex_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img{
+  object-fit: cover;
+  border-radius: 10px;
+  border:#E4BEC6 3px solid ;
+  width:600px;
+  height:450px;
+  margin:20px 10px;
+}
+.card_flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: first baseline;
+  padding: 0 300px;
+}
+.card{
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin:10px 10px;
+  box-shadow: 0px 0px 5px gray;
+  background-color: #fff;
+}
+.card_img{
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width:300px;
+  height:200px;
+}
+.card_title{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+

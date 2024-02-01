@@ -1,0 +1,23 @@
+.shopping_step {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin: 150px 0px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #909090;
+}
+
+.shopping_step div {
+  margin-right: 50px;
+}
+
+.shopping_step div:nth-child(3) {
+  color: #F29BA5;
+}
+
+.shopping_step div:nth-child(5) {
+  margin-right: 0px;
+}

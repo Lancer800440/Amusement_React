@@ -1,0 +1,297 @@
+.product-container {
+  width: 80%;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.recipient_information {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+
+.recipient_information_title1{
+  margin-left: 5%;
+}
+
+.recipient_information_title2{
+  margin-right: 5%;
+}
+
+.recipient_information div input {
+  width: 30px;
+  height: 30px;
+}
+
+.form_container {
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  margin: auto;
+
+}
+
+.form_container1 {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  margin: auto;
+
+}
+
+.recipient_descs {
+  width: 50%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-right: 30px;
+  border-radius: 20px;
+}
+
+.recipient_descs_title {
+  width: 35%;
+  margin-bottom: 16px;
+}
+
+.recipient_descs_input {
+  width: 60%;
+}
+
+.recipient_descs_input input{
+  padding: 0px 5px;
+}
+
+.recipient_descs div span {
+  color: red;
+}
+
+.recipient_descs div input {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px gray;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.recipient_descs_address {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+
+.recipient_address {
+  width: 15%;
+  margin-left: 70px;
+}
+
+.recipient_textarea {
+  width: 77%;
+  margin-right: 30px;
+}
+
+.recipient_textarea textarea {
+  height: 90px;
+  font-size: 24px;
+}
+
+.recipient_descs_address div textarea {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px gray;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.logistics {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.logistics_title {
+  width: 20%;
+  margin-left: 70px;
+}
+
+.logistics_descs {
+  width: 70%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.logistics-descs div {
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logistics_descs div:nth-child(3) {
+  margin-right: 0px;
+}
+
+.logistics_descs div input {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.ml30{
+  margin-left: 30px;
+}
+
+.credit_descs1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 45%;
+  margin-left: 70px;
+}
+
+.credit_descs2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 23%;
+  margin-right: 50px;
+}
+
+.credit_title {
+  margin-right: 50px;
+
+}
+
+.credit_desc input {
+  width: 120px;
+  height: 45px;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px gray;
+}
+
+.total_container{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: end
+}
+
+.total_info{
+  width: 70%;
+  display: flex;
+  justify-content: end;
+}
+
+
+.total_info p{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  margin-top: 100px;
+}
+
+.totalPrice {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  margin: 115px 50px 0 0;
+}
+
+.total_info div:nth-child(2){
+  color: red;
+}
+
+.pay_button{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 50px;
+  margin: 0px 15px;
+  background-color: #F29BA5;
+  cursor: pointer;
+}
+
+.pay_button_word{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  background-color: #F29BA5;
+  border: none;
+  letter-spacing: 10px;
+}
+
+.w100{
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.w80{
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.w101{
+  width: 100%;
+}
+
+.store{
+  width: 100%;
+  height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #F29BA5;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.address{
+  font-size: 28px;
+}
+

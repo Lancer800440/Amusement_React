@@ -1,0 +1,287 @@
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.detailContainer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.detailPics {
+  width: 40%;
+  margin-top: 200px;
+}
+
+.w450 img {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.w100 {
+  width: 98%;
+  height: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.w100 img{
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.w100_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  border-radius: 10px;
+  background-color: #F29BA5;
+  color: white;
+  cursor: pointer;
+}
+
+.detail_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-top: 200px;
+}
+
+.product_name{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.product_desc{
+  width: 85%;
+  font-size: 28px;
+  margin-top: 50px;
+}
+
+.desc_flex{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin-top: 50px;
+}
+
+.desc_flex2{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.desc_flex3{
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.desc_title{
+  width: 150px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 36px;
+  color: #F29BA5;
+}
+
+.size_desc, .quantity_desc{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #F29BA5;
+}
+
+.size_desc div , .quantity_desc div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: #F29BA5;
+  color: white;
+  margin-right: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.quantity_desc div button {
+  background-color: #F29BA5;
+  color: white;
+  border: none;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.color_desc{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #F29BA5;
+}
+
+.color_desc div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: #F29BA5;
+  color: white;
+  margin-right: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.price_desc{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.price_desc div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  color: #F29BA5;
+  border-radius: 20px;
+  font-size: 64px;
+  padding-left: 30px;
+}
+
+.icon_flex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  padding: 0px 150px 0px 200px;
+  font-size: 80px;
+  color: #F29BA5;
+}
+
+.icon_flex i{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected{
+  background-color: red;
+  color: black;
+}
+
+.title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px ;
+}
+
+.w_262 {
+  width: 20%;
+  height: 100%;
+  border-radius: 15px;
+  color: #F29BA5 ;
+  box-shadow: 0px 0px 5px gray;
+  margin: 40px 30px;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.w_262 img {
+  width: 100%;
+  height: 70%;
+  border-radius: 15px 15px 0px 0px;
+  overflow: hidden;
+}
+
+.w_262:hover {
+  background-color:#F29BA5;
+  color: white;
+}
+
+.card_text {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.price_text {
+  display: block;
+  display: flex;
+  justify-content: end;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 24px;
+  margin-top: 40px;
+}
+
+.product_recommend{
+  color: #F29BA5 ;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.active{
+  background-color: #F29BA5;
+  color: white;
+}
+
+.page_item{
+  color: black;
+}
+
+.w80{
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gocart{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F29BA5;
+  border: none;
+  border-radius: 20px;
+  height: 80px;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 28px;
+}

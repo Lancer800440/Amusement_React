@@ -1,0 +1,116 @@
+.container{
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center;
+  align-content: center; */
+  height: 900px;
+}
+.title{
+  margin:50px auto;
+  text-align: center;
+}
+
+.flex_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button_flex{
+  /* width:1200px; */
+  padding:0 350px;
+  display: flex;
+  justify-content: end;
+}
+.button{
+  outline-style: none;
+  border:0;
+  background-color: #E4BEC6;
+  border-radius: 5px;
+  width: 120px;
+  height: 30px;
+  color: #fff;
+  font-family:'Zen Maru Gothic', serif;
+  cursor: pointer;
+  display:flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-weight: 300;
+  margin:10px 0 ;
+  cursor: pointer;
+}
+.img{
+  object-fit: cover;
+  border-radius: 10px;
+  border:#E4BEC6 3px solid ;
+  width:600px;
+  height:450px;
+  margin:20px 10px;
+}
+.menu{
+  cursor: pointer;
+  color:#d7627b
+}
+.tag{
+  background-color: #d04a67;
+  color:#fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.space_between{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.space_between2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.food_img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: first baseline;
+  padding: 0 300px;
+}
+.mini_img{
+  object-fit: cover;
+  width: 280px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card_flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: first baseline;
+  padding: 0 300px;
+}
+.card{
+  width: 280px;
+  height: 260px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin:10px 10px;
+  box-shadow: 0px 0px 5px gray;
+  background-color: #fff;
+}
+.card_img{
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width:280px;
+  height:200px;
+}
+.card_title{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2;
+}
+

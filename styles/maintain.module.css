@@ -1,0 +1,68 @@
+.contain{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  align-content: center;
+  /* height: 900px; */
+}
+.title{
+  margin-top:50px;
+  text-align: center;
+  font-size: 30px;
+}
+.searchbar{
+  width: 250px;
+  border-radius: 20px;
+  border:#000 2px solid;
+  line-height: 2.5;
+  text-indent: 40px;
+  font-size: 16px;
+  margin: 20px;
+  font-family:'Zen Maru Gothic', serif;
+}
+
+.button{
+  outline-style: none;
+  border:0;
+  border:#de839e solid 2px;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  background-color: #fff;
+  color: #de839e;
+  font-size: 16px;
+  font-family:'Zen Maru Gothic', serif;
+  cursor: pointer;
+  display:flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-weight: 500;
+  margin: 20px;
+}
+.flex_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.flex_spacebetween{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+

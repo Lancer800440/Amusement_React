@@ -1,0 +1,90 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 900px; */
+}
+.title{
+  margin:50px auto;
+  text-align: center;
+  font-size: 30px;
+}
+.formborder{
+  position: relative;
+  height: 600px;
+  width: 400px;
+  border: #F29BA5 2px solid;
+  border-radius: 10px;
+  font-size: 20px;
+  margin:20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.input{
+  outline-style: none;
+  border:0;
+  border: #E4BEC6 1px solid;
+  width: 100%;
+  height: 30px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  padding-inline-start: 5px;
+}
+.button{
+  outline-style: none;
+  border:0;
+  background-color: #E4BEC6;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 100%;
+  height: 30px;
+  margin: 20px 0px;
+  color: #fff;
+  font-family:'Zen Maru Gothic', serif;
+  cursor: pointer;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.register_button{
+  cursor: pointer;
+}
+.google_login{
+  outline-style: none;
+  border:0;
+  background-color: #ffffff;
+  border: #000000 1px solid;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  margin: 20px 0px;
+  font-family:'Zen Maru Gothic', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img{
+  object-fit: fill;
+  width: 20px;
+  height:20px;
+  margin:auto 5px;
+}
+.star{
+  color:rgb(251, 86, 86);
+  position: absolute;
+  top:10px;
+  left:360px;
+  cursor: pointer;
+}
+.star2{
+  color:rgb(251, 86, 204);
+  position: absolute;
+  top:10px;
+  left:10px;
+  cursor: pointer;
+}

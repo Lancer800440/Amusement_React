@@ -1,0 +1,60 @@
+.container{
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center;
+  align-content: center; */
+  /* height: 900px; */
+}
+.option{
+  margin: 30px 40px;
+}
+.button{
+  outline-style: none;
+  border:0;
+  border-radius: 5px;
+  height: 30px;
+  background-color: #fff;
+  border: #000 2px solid;
+  font-family:'Zen Maru Gothic', serif;
+  cursor: pointer;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+.logo{
+  object-fit: cover;
+  height: 50px;
+}
+.flex_center_column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.flex_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+.flex_spacebetween{
+  background-color: #e48fa2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+.img{
+  object-fit: fill;
+  border-radius: 10px;
+  border:#E4BEC6 2px solid ;
+  width:250px;
+  height:150px;
+  margin:20px 2px;
+}
+
+

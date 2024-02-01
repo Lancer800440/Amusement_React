@@ -1,0 +1,27 @@
+.icon-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px;
+}
+
+.icon-heart .icon-cart{
+  font-size: 24px;
+  color: #F29BA5 ;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.product-container {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}

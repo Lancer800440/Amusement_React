@@ -1,0 +1,113 @@
+.contain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* height: 900px; */
+}
+.title{
+  margin:50px auto;
+  text-align: center;
+  font-size: 30px;
+}
+.formborder{
+  position: relative;
+  height: 750px;
+  width: 1000px;
+  border: #F29BA5 2px solid;
+  border-radius: 10px;
+  font-size: 20px;
+  margin:10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.input{
+  outline-style: none;
+  border:0;
+  border: #E4BEC6 1px solid;
+  font-size: 20px;
+  width: 550px;
+  height: 30px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  font-family:'Zen Maru Gothic', serif;
+  padding-inline-start: 5px;
+}
+.button{
+  outline-style: none;
+  border:0;
+  background-color: #E4BEC6;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  margin: 20px 0px;
+  color: #fff;
+  font-family:'Zen Maru Gothic', serif;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.padding30{
+  padding: 30px;
+}
+.red{
+  color: red;
+}
+.img{
+  object-fit: fill;
+  height:300px;
+  width: 100%;
+  margin:20px 2px;
+}
+.upload_button{
+  font-family:'Zen Maru Gothic', serif;
+  border:0;
+  background-color:none;
+  font-size: 20px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.nickname{
+  outline-style: none;
+  border:0;
+  border-bottom: #E4BEC6 1px solid;
+  font-size: 20px;
+  width: 200px;
+  height: 30px;
+  margin: 10px 0px;
+  font-family:'Zen Maru Gothic', serif;
+  padding-inline-start: 10px;
+}
+.icon{
+  object-fit: fill;
+  height:30px;
+  margin:0px 2px;
+}
+.star{
+  color:rgb(251, 86, 86);
+  position: absolute;
+  top:20px;
+  left:950px;
+  cursor: pointer;
+}
